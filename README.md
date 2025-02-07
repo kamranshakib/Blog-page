@@ -1,6 +1,6 @@
 # Blog Project
 
-A simple blog built with Node.js and MongoDB. This project allows users to create, edit, and manage blog posts with authentication support using JWT.
+A simple blog built with Node.js and MongoDB. This project allows users to create, delete, and manage blog posts.
 
 ## Features
 - Create, edit, and delete blog posts
