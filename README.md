@@ -3,10 +3,11 @@
 A simple blog built with Node.js and MongoDB. This project allows users to create, delete, and manage blog posts.
 
 ## Features
-- Create, edit, and delete blog posts
+- Create, and delete blog posts
 - Categorize and tag posts
-- User authentication (JWT-based)
 - Admin panel for managing content
+
+(show.png)
 
 ## Installation
 ```bash
