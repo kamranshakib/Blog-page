@@ -11,8 +11,8 @@ A simple blog built with Node.js and MongoDB. This project allows users to creat
 
 ## Installation
 ```bash
-git clone https://github.com/kamranshakib/blog-page.git
-cd blog-page
+git clone https://github.com/kamranshakib/Blog-page.git
+cd Blog-page
 npm install
 npm start
 ```
