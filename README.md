@@ -7,7 +7,7 @@ A simple blog built with Node.js and MongoDB. This project allows users to creat
 - Categorize and tag posts
 - Admin panel for managing content
 
-(show.png)
+![blog Guide](show.png)
 
 ## Installation
 ```bash
