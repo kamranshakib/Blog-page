@@ -1,0 +1,13 @@
+<%- include('header.ejs') %>
+
+<h1>Blogs!</h1>
+
+<% result.forEach(element => { %>
+    <div class="blogs">
+        <h3><%=element.title %></h3>
+        <p> <%=element.Body.substring(0,100)+"..." %> <a id="tag_a" href="/readMore/<%=element._id %>">Read more</a></p>
+    </div>
+   
+<%}); %>
+
+

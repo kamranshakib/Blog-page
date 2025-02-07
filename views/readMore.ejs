@@ -1,0 +1,39 @@
+<%-include('header.ejs') %>
+
+<div
+  style="
+    border: 2px solid rgba(63, 63, 63, 0.118);
+    padding: 20px;
+    width: 70%;
+    margin: 0 10%;
+  "
+  class="readmore"
+>
+  <h1
+    style="
+      text-align: left;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+      margin: 0;
+      width: auto;
+      height: 30px;
+      padding: 10px 0;
+      text-align: left;
+    "
+  >
+    <%=result.title %>
+  </h1>
+  <p style="margin-top: 10px; color: rgba(41, 41, 41, 0.771)">
+    <%= result.Body %>
+  </p>
+  <button
+    style="
+      margin-top: 10px;
+      padding: 10px 25px;
+      background-color: rgba(0, 76, 255, 0.868);
+      border: none;
+      border-radius: 5px;
+    "
+  >
+    <a style="color: whitesmoke" href="/delete/<%=result._id%>">Delete</a>
+  </button>
+</div>
