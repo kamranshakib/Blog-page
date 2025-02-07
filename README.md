@@ -11,37 +11,27 @@ A simple blog built with Node.js and MongoDB. This project allows users to creat
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/blog-project.git
-cd blog-project
+git clone https://github.com/kamranshakib/blog-page.git
+cd blog-page
 npm install
 npm start
 ```
 
-## Environment Variables
-Create a `.env` file and add the following variables:
-```env
-MONGO_URI=mongodb://localhost:27017/blog
-JWT_SECRET=your_secret_key
-PORT=3000
-```
+
 
 ## Project Structure
 ```
 /blog-project
 │-- server.js
 │-- package.json
-│-- /routes
-│-- /models
+│-- /model
 │-- /views
-│-- /public
 ```
 
 ## Commands
 - `npm run dev` - Run the server in development mode
 - `npm start` - Run the server normally
 
-## License
-This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries, feel free to reach out to me at [@tesakor].
+For any inquiries, feel free to reach out to me at [ t.me/tesakor ].
