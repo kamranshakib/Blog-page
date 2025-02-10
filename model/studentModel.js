@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema;
+//Connect to Database 
 mongoose.connect('mongodb://localhost:27017/blogList')
 .then((result)=>console.log('Connected to db'))
 .catch((err) => console.log(err))
