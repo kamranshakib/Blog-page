@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
     .then((result) => res.render("home", { result }))
     .catch((err) => console.log(err));
 });
-                    // compose route 
+                  
 app.get("/compose", (req, res) => {
   res.render("compose");
 });
